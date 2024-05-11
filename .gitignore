@@ -1,0 +1,4 @@
+chat_models/
+embedding_models/
+SimilaritySearch.jl/
+transformers_env/

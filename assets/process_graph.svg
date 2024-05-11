@@ -1,0 +1,491 @@
+<svg width="895pt" height="1334pt" viewBox="0.00 0.00 895.00 1334.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1330)">
+<title>graphname</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-1330 891,-1330 891,4 -4,4"></polygon>
+<g id="clust1" class="cluster">
+<title>cluster_0</title>
+<polygon fill="aliceblue" stroke="aliceblue" points="598,-1061 598,-1124 850,-1124 850,-1061 598,-1061"></polygon>
+<text text-anchor="middle" x="724" y="-1108.8" font-family="Times New Roman,serif" font-size="14.00">LlamaCPP</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_1</title>
+<polygon fill="aquamarine" stroke="aquamarine" points="8,-1184 8,-1247 278,-1247 278,-1184 8,-1184"></polygon>
+<text text-anchor="middle" x="143" y="-1231.8" font-family="Times New Roman,serif" font-size="14.00">SentenceTransformer</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_2</title>
+<polygon fill="darkseagreen" stroke="darkseagreen" points="297,-870 297,-1247 507,-1247 507,-870 297,-870"></polygon>
+<text text-anchor="middle" x="402" y="-1231.8" font-family="Times New Roman,serif" font-size="14.00">Document Processing</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_3</title>
+<polygon fill="powderblue" stroke="powderblue" points="527,-630 527,-1053 677,-1053 677,-630 527,-630"></polygon>
+<text text-anchor="middle" x="602" y="-1037.8" font-family="Times New Roman,serif" font-size="14.00">Query Processing</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_5</title>
+<polygon fill="lavender" stroke="lavender" points="135,-259 135,-622 261,-622 261,-259 135,-259"></polygon>
+<text text-anchor="middle" x="198" y="-606.8" font-family="Times New Roman,serif" font-size="14.00">Rerank Phase</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_7</title>
+<polygon fill="salmon" stroke="salmon" points="17,-1255 17,-1318 879,-1318 879,-1255 17,-1255"></polygon>
+<text text-anchor="middle" x="448" y="-1302.8" font-family="Times New Roman,serif" font-size="14.00">Config</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_6</title>
+<polygon fill="thistle" stroke="thistle" points="636,-8 636,-251 758,-251 758,-8 636,-8"></polygon>
+<text text-anchor="middle" x="697" y="-235.8" font-family="Times New Roman,serif" font-size="14.00">Final Output</text>
+</g>
+<!-- Documents -->
+<g id="node1" class="node">
+<title>Documents</title>
+<polygon fill="red" stroke="black" points="364,-1192.5 364,-1215.5 450,-1215.5 450,-1192.5 364,-1192.5"></polygon>
+<text text-anchor="middle" x="407" y="-1200.3" font-family="FreeSans" font-size="14.00">Documents</text>
+</g>
+<!-- Chunker -->
+<g id="node13" class="node">
+<title>Chunker</title>
+<polygon fill="lightcyan" stroke="black" points="305.5,-1132.5 305.5,-1155.5 372.5,-1155.5 372.5,-1132.5 305.5,-1132.5"></polygon>
+<text text-anchor="middle" x="339" y="-1140.3" font-family="FreeSans" font-size="14.00">Chunker</text>
+</g>
+<!-- Documents&#45;&gt;Chunker -->
+<g id="edge1" class="edge">
+<title>Documents-&gt;Chunker</title>
+<path fill="none" stroke="black" d="M368.25,-1192.43C368.25,-1192.43 368.25,-1165.53 368.25,-1165.53"></path>
+<polygon fill="black" stroke="black" points="371.75,-1165.53 368.25,-1155.53 364.75,-1165.53 371.75,-1165.53"></polygon>
+</g>
+<!-- Query -->
+<g id="node2" class="node">
+<title>Query</title>
+<polygon fill="red" stroke="black" points="595,-998.5 595,-1021.5 649,-1021.5 649,-998.5 595,-998.5"></polygon>
+<text text-anchor="middle" x="622" y="-1006.3" font-family="FreeSans" font-size="14.00">Query</text>
+</g>
+<!-- QueryDBEmbedder -->
+<g id="node10" class="node">
+<title>QueryDBEmbedder</title>
+<polygon fill="lightcyan" stroke="black" points="535,-938.5 535,-961.5 669,-961.5 669,-938.5 535,-938.5"></polygon>
+<text text-anchor="middle" x="602" y="-946.3" font-family="FreeSans" font-size="14.00">QueryDBEmbedder</text>
+</g>
+<!-- Query&#45;&gt;QueryDBEmbedder -->
+<g id="edge11" class="edge">
+<title>Query-&gt;QueryDBEmbedder</title>
+<path fill="none" stroke="black" d="M622,-998.43C622,-998.43 622,-971.53 622,-971.53"></path>
+<polygon fill="black" stroke="black" points="625.5,-971.53 622,-961.53 618.5,-971.53 625.5,-971.53"></polygon>
+</g>
+<!-- ChatFormatter -->
+<g id="node15" class="node">
+<title>ChatFormatter</title>
+<polygon fill="lightcyan" stroke="black" points="644,-196.5 644,-219.5 750,-219.5 750,-196.5 644,-196.5"></polygon>
+<text text-anchor="middle" x="697" y="-204.3" font-family="FreeSans" font-size="14.00">ChatFormatter</text>
+</g>
+<!-- Query&#45;&gt;ChatFormatter -->
+<g id="edge31" class="edge">
+<title>Query-&gt;ChatFormatter</title>
+<path fill="none" stroke="black" d="M649.2,-1010C673.9,-1010 706.5,-1010 706.5,-1010 706.5,-1010 706.5,-229.65 706.5,-229.65"></path>
+<polygon fill="black" stroke="black" points="710,-229.65 706.5,-219.65 703,-229.65 710,-229.65"></polygon>
+</g>
+<!-- ArrowStorage -->
+<g id="node3" class="node">
+<title>ArrowStorage</title>
+<polygon fill="violet" stroke="black" points="305.5,-878.5 305.5,-901.5 406.5,-901.5 406.5,-878.5 305.5,-878.5"></polygon>
+<text text-anchor="middle" x="356" y="-886.3" font-family="FreeSans" font-size="14.00">ArrowStorage</text>
+</g>
+<!-- Retriever -->
+<g id="node11" class="node">
+<title>Retriever</title>
+<polygon fill="lightcyan" stroke="black" points="545.5,-698.5 545.5,-721.5 618.5,-721.5 618.5,-698.5 545.5,-698.5"></polygon>
+<text text-anchor="middle" x="582" y="-706.3" font-family="FreeSans" font-size="14.00">Retriever</text>
+</g>
+<!-- ArrowStorage&#45;&gt;Retriever -->
+<g id="edge9" class="edge">
+<title>ArrowStorage-&gt;Retriever</title>
+<path fill="none" stroke="black" d="M356,-878.47C356,-838.74 356,-710 356,-710 356,-710 535.44,-710 535.44,-710"></path>
+<polygon fill="black" stroke="black" points="535.44,-713.5 545.44,-710 535.44,-706.5 535.44,-713.5"></polygon>
+</g>
+<!-- VectorDB -->
+<g id="node4" class="node">
+<title>VectorDB</title>
+<polygon fill="violet" stroke="black" points="425,-878.5 425,-901.5 499,-901.5 499,-878.5 425,-878.5"></polygon>
+<text text-anchor="middle" x="462" y="-886.3" font-family="FreeSans" font-size="14.00">VectorDB</text>
+</g>
+<!-- VectorSearch -->
+<g id="node9" class="node">
+<title>VectorSearch</title>
+<polygon fill="lightcyan" stroke="black" points="541,-818.5 541,-841.5 639,-841.5 639,-818.5 541,-818.5"></polygon>
+<text text-anchor="middle" x="590" y="-826.3" font-family="FreeSans" font-size="14.00">VectorSearch</text>
+</g>
+<!-- VectorDB&#45;&gt;VectorSearch -->
+<g id="edge10" class="edge">
+<title>VectorDB-&gt;VectorSearch</title>
+<path fill="none" stroke="black" d="M462,-878.43C462,-861 462,-830 462,-830 462,-830 530.88,-830 530.88,-830"></path>
+<polygon fill="black" stroke="black" points="530.88,-833.5 540.88,-830 530.88,-826.5 530.88,-833.5"></polygon>
+</g>
+<!-- CEEmbeddingModel -->
+<g id="node5" class="node">
+<title>CEEmbeddingModel</title>
+<polygon fill="lightgreen" stroke="black" points="16,-1192.5 16,-1215.5 152,-1215.5 152,-1192.5 16,-1192.5"></polygon>
+<text text-anchor="middle" x="84" y="-1200.3" font-family="FreeSans" font-size="14.00">CEEmbeddingModel</text>
+</g>
+<!-- CEEmbedder -->
+<g id="node14" class="node">
+<title>CEEmbedder</title>
+<polygon fill="lightcyan" stroke="black" points="148.5,-567.5 148.5,-590.5 243.5,-590.5 243.5,-567.5 148.5,-567.5"></polygon>
+<text text-anchor="middle" x="196" y="-575.3" font-family="FreeSans" font-size="14.00">CEEmbedder</text>
+</g>
+<!-- CEEmbeddingModel&#45;&gt;CEEmbedder -->
+<g id="edge26" class="edge">
+<title>CEEmbeddingModel-&gt;CEEmbedder</title>
+<path fill="none" stroke="black" d="M152.37,-1208C155.68,-1208 157.67,-1208 157.67,-1208 157.67,-1208 157.67,-600.73 157.67,-600.73"></path>
+<polygon fill="black" stroke="black" points="161.17,-600.73 157.67,-590.73 154.17,-600.73 161.17,-600.73"></polygon>
+</g>
+<!-- CrossEncoder -->
+<g id="node6" class="node">
+<title>CrossEncoder</title>
+<polygon fill="lightgreen" stroke="black" points="170.5,-1192.5 170.5,-1215.5 269.5,-1215.5 269.5,-1192.5 170.5,-1192.5"></polygon>
+<text text-anchor="middle" x="220" y="-1200.3" font-family="FreeSans" font-size="14.00">CrossEncoder</text>
+</g>
+<!-- CERanker -->
+<g id="node17" class="node">
+<title>CERanker</title>
+<polygon fill="lightcyan" stroke="black" points="160,-447.5 160,-470.5 236,-470.5 236,-447.5 160,-447.5"></polygon>
+<text text-anchor="middle" x="198" y="-455.3" font-family="FreeSans" font-size="14.00">CERanker</text>
+</g>
+<!-- CrossEncoder&#45;&gt;CERanker -->
+<g id="edge25" class="edge">
+<title>CrossEncoder-&gt;CERanker</title>
+<path fill="none" stroke="black" d="M261.25,-1192.3C261.25,-1097.52 261.25,-459 261.25,-459 261.25,-459 246.25,-459 246.25,-459"></path>
+<polygon fill="black" stroke="black" points="246.25,-455.5 236.25,-459 246.25,-462.5 246.25,-455.5"></polygon>
+</g>
+<!-- ChatModel -->
+<g id="node7" class="node">
+<title>ChatModel</title>
+<polygon fill="lightgreen" stroke="black" points="762,-1069.5 762,-1092.5 842,-1092.5 842,-1069.5 762,-1069.5"></polygon>
+<text text-anchor="middle" x="802" y="-1077.3" font-family="FreeSans" font-size="14.00">ChatModel</text>
+</g>
+<!-- Chat -->
+<g id="node18" class="node">
+<title>Chat</title>
+<polygon fill="lightcyan" stroke="black" points="670,-76.5 670,-99.5 724,-99.5 724,-76.5 670,-76.5"></polygon>
+<text text-anchor="middle" x="697" y="-84.3" font-family="FreeSans" font-size="14.00">Chat</text>
+</g>
+<!-- ChatModel&#45;&gt;Chat -->
+<g id="edge40" class="edge">
+<title>ChatModel-&gt;Chat</title>
+<path fill="none" stroke="black" d="M802,-1069.16C802,-957.12 802,-88 802,-88 802,-88 734.04,-88 734.04,-88"></path>
+<polygon fill="black" stroke="black" points="734.04,-84.5 724.04,-88 734.04,-91.5 734.04,-84.5"></polygon>
+</g>
+<!-- DBEmbeddingModel -->
+<g id="node8" class="node">
+<title>DBEmbeddingModel</title>
+<polygon fill="lightgreen" stroke="black" points="606,-1069.5 606,-1092.5 744,-1092.5 744,-1069.5 606,-1069.5"></polygon>
+<text text-anchor="middle" x="675" y="-1077.3" font-family="FreeSans" font-size="14.00">DBEmbeddingModel</text>
+</g>
+<!-- DBEmbeddingModel&#45;&gt;QueryDBEmbedder -->
+<g id="edge17" class="edge">
+<title>DBEmbeddingModel-&gt;QueryDBEmbedder</title>
+<path fill="none" stroke="black" d="M659,-1069.37C659,-1069.37 659,-971.79 659,-971.79"></path>
+<polygon fill="black" stroke="black" points="662.5,-971.79 659,-961.79 655.5,-971.79 662.5,-971.79"></polygon>
+</g>
+<!-- DBEmbedder -->
+<g id="node12" class="node">
+<title>DBEmbedder</title>
+<polygon fill="lightcyan" stroke="black" points="353.5,-998.5 353.5,-1021.5 450.5,-1021.5 450.5,-998.5 353.5,-998.5"></polygon>
+<text text-anchor="middle" x="402" y="-1006.3" font-family="FreeSans" font-size="14.00">DBEmbedder</text>
+</g>
+<!-- DBEmbeddingModel&#45;&gt;DBEmbedder -->
+<g id="edge8" class="edge">
+<title>DBEmbeddingModel-&gt;DBEmbedder</title>
+<path fill="none" stroke="black" d="M605.7,-1081C527.56,-1081 411.25,-1081 411.25,-1081 411.25,-1081 411.25,-1031.72 411.25,-1031.72"></path>
+<polygon fill="black" stroke="black" points="414.75,-1031.72 411.25,-1021.72 407.75,-1031.72 414.75,-1031.72"></polygon>
+</g>
+<!-- DBTopKIndices -->
+<g id="node22" class="node">
+<title>DBTopKIndices</title>
+<polygon fill="lightblue" stroke="black" points="535,-758.5 535,-781.5 645,-781.5 645,-758.5 535,-758.5"></polygon>
+<text text-anchor="middle" x="590" y="-766.3" font-family="FreeSans" font-size="14.00">DBTopKIndices</text>
+</g>
+<!-- VectorSearch&#45;&gt;DBTopKIndices -->
+<g id="edge14" class="edge">
+<title>VectorSearch-&gt;DBTopKIndices</title>
+<path fill="none" stroke="black" d="M590,-818.43C590,-818.43 590,-791.53 590,-791.53"></path>
+<polygon fill="black" stroke="black" points="593.5,-791.53 590,-781.53 586.5,-791.53 593.5,-791.53"></polygon>
+</g>
+<!-- QueryEmbeddings -->
+<g id="node21" class="node">
+<title>QueryEmbeddings</title>
+<polygon fill="lightblue" stroke="black" points="537.5,-878.5 537.5,-901.5 664.5,-901.5 664.5,-878.5 537.5,-878.5"></polygon>
+<text text-anchor="middle" x="601" y="-886.3" font-family="FreeSans" font-size="14.00">QueryEmbeddings</text>
+</g>
+<!-- QueryDBEmbedder&#45;&gt;QueryEmbeddings -->
+<g id="edge12" class="edge">
+<title>QueryDBEmbedder-&gt;QueryEmbeddings</title>
+<path fill="none" stroke="black" d="M601,-938.43C601,-938.43 601,-911.53 601,-911.53"></path>
+<polygon fill="black" stroke="black" points="604.5,-911.53 601,-901.53 597.5,-911.53 604.5,-911.53"></polygon>
+</g>
+<!-- DBTopKText -->
+<g id="node23" class="node">
+<title>DBTopKText</title>
+<polygon fill="lightblue" stroke="black" points="535.5,-638.5 535.5,-661.5 628.5,-661.5 628.5,-638.5 535.5,-638.5"></polygon>
+<text text-anchor="middle" x="582" y="-646.3" font-family="FreeSans" font-size="14.00">DBTopKText</text>
+</g>
+<!-- Retriever&#45;&gt;DBTopKText -->
+<g id="edge16" class="edge">
+<title>Retriever-&gt;DBTopKText</title>
+<path fill="none" stroke="black" d="M582,-698.43C582,-698.43 582,-671.53 582,-671.53"></path>
+<polygon fill="black" stroke="black" points="585.5,-671.53 582,-661.53 578.5,-671.53 585.5,-671.53"></polygon>
+</g>
+<!-- DocumentEmbeddings -->
+<g id="node20" class="node">
+<title>DocumentEmbeddings</title>
+<polygon fill="lightblue" stroke="black" points="325.5,-938.5 325.5,-961.5 478.5,-961.5 478.5,-938.5 325.5,-938.5"></polygon>
+<text text-anchor="middle" x="402" y="-946.3" font-family="FreeSans" font-size="14.00">DocumentEmbeddings</text>
+</g>
+<!-- DBEmbedder&#45;&gt;DocumentEmbeddings -->
+<g id="edge5" class="edge">
+<title>DBEmbedder-&gt;DocumentEmbeddings</title>
+<path fill="none" stroke="black" d="M402,-998.43C402,-998.43 402,-971.53 402,-971.53"></path>
+<polygon fill="black" stroke="black" points="405.5,-971.53 402,-961.53 398.5,-971.53 405.5,-971.53"></polygon>
+</g>
+<!-- Chunks -->
+<g id="node19" class="node">
+<title>Chunks</title>
+<polygon fill="lightblue" stroke="black" points="309,-1069.5 309,-1092.5 369,-1092.5 369,-1069.5 309,-1069.5"></polygon>
+<text text-anchor="middle" x="339" y="-1077.3" font-family="FreeSans" font-size="14.00">Chunks</text>
+</g>
+<!-- Chunker&#45;&gt;Chunks -->
+<g id="edge2" class="edge">
+<title>Chunker-&gt;Chunks</title>
+<path fill="none" stroke="black" d="M339,-1132.44C339,-1132.44 339,-1102.91 339,-1102.91"></path>
+<polygon fill="black" stroke="black" points="342.5,-1102.91 339,-1092.91 335.5,-1102.91 342.5,-1102.91"></polygon>
+</g>
+<!-- CEEmbeddings -->
+<g id="node24" class="node">
+<title>CEEmbeddings</title>
+<polygon fill="lightblue" stroke="black" points="143,-507.5 143,-530.5 249,-530.5 249,-507.5 143,-507.5"></polygon>
+<text text-anchor="middle" x="196" y="-515.3" font-family="FreeSans" font-size="14.00">CEEmbeddings</text>
+</g>
+<!-- CEEmbedder&#45;&gt;CEEmbeddings -->
+<g id="edge19" class="edge">
+<title>CEEmbedder-&gt;CEEmbeddings</title>
+<path fill="none" stroke="black" d="M196,-567.43C196,-567.43 196,-540.53 196,-540.53"></path>
+<polygon fill="black" stroke="black" points="199.5,-540.53 196,-530.53 192.5,-540.53 199.5,-540.53"></polygon>
+</g>
+<!-- ChatRequest -->
+<g id="node27" class="node">
+<title>ChatRequest</title>
+<polygon fill="lightblue" stroke="black" points="650,-136.5 650,-159.5 744,-159.5 744,-136.5 650,-136.5"></polygon>
+<text text-anchor="middle" x="697" y="-144.3" font-family="FreeSans" font-size="14.00">ChatRequest</text>
+</g>
+<!-- ChatFormatter&#45;&gt;ChatRequest -->
+<g id="edge27" class="edge">
+<title>ChatFormatter-&gt;ChatRequest</title>
+<path fill="none" stroke="black" d="M697,-196.43C697,-196.43 697,-169.53 697,-169.53"></path>
+<polygon fill="black" stroke="black" points="700.5,-169.53 697,-159.53 693.5,-169.53 700.5,-169.53"></polygon>
+</g>
+<!-- CEQueryTopK -->
+<g id="node16" class="node">
+<title>CEQueryTopK</title>
+<polygon fill="lightcyan" stroke="black" points="151.5,-327.5 151.5,-350.5 252.5,-350.5 252.5,-327.5 151.5,-327.5"></polygon>
+<text text-anchor="middle" x="202" y="-335.3" font-family="FreeSans" font-size="14.00">CEQueryTopK</text>
+</g>
+<!-- Context -->
+<g id="node26" class="node">
+<title>Context</title>
+<polygon fill="lightblue" stroke="black" points="179.5,-267.5 179.5,-290.5 242.5,-290.5 242.5,-267.5 179.5,-267.5"></polygon>
+<text text-anchor="middle" x="211" y="-275.3" font-family="FreeSans" font-size="14.00">Context</text>
+</g>
+<!-- CEQueryTopK&#45;&gt;Context -->
+<g id="edge23" class="edge">
+<title>CEQueryTopK-&gt;Context</title>
+<path fill="none" stroke="black" d="M211,-327.43C211,-327.43 211,-300.53 211,-300.53"></path>
+<polygon fill="black" stroke="black" points="214.5,-300.53 211,-290.53 207.5,-300.53 214.5,-300.53"></polygon>
+</g>
+<!-- CEQueryScores -->
+<g id="node25" class="node">
+<title>CEQueryScores</title>
+<polygon fill="lightblue" stroke="black" points="143,-387.5 143,-410.5 253,-410.5 253,-387.5 143,-387.5"></polygon>
+<text text-anchor="middle" x="198" y="-395.3" font-family="FreeSans" font-size="14.00">CEQueryScores</text>
+</g>
+<!-- CERanker&#45;&gt;CEQueryScores -->
+<g id="edge21" class="edge">
+<title>CERanker-&gt;CEQueryScores</title>
+<path fill="none" stroke="black" d="M198,-447.43C198,-447.43 198,-420.53 198,-420.53"></path>
+<polygon fill="black" stroke="black" points="201.5,-420.53 198,-410.53 194.5,-420.53 201.5,-420.53"></polygon>
+</g>
+<!-- ChatResponse -->
+<g id="node28" class="node">
+<title>ChatResponse</title>
+<polygon fill="lightblue" stroke="black" points="645.5,-16.5 645.5,-39.5 748.5,-39.5 748.5,-16.5 645.5,-16.5"></polygon>
+<text text-anchor="middle" x="697" y="-24.3" font-family="FreeSans" font-size="14.00">ChatResponse</text>
+</g>
+<!-- Chat&#45;&gt;ChatResponse -->
+<g id="edge29" class="edge">
+<title>Chat-&gt;ChatResponse</title>
+<path fill="none" stroke="black" d="M697,-76.43C697,-76.43 697,-49.53 697,-49.53"></path>
+<polygon fill="black" stroke="black" points="700.5,-49.53 697,-39.53 693.5,-49.53 700.5,-49.53"></polygon>
+</g>
+<!-- Chunks&#45;&gt;ArrowStorage -->
+<g id="edge3" class="edge">
+<title>Chunks-&gt;ArrowStorage</title>
+<path fill="none" stroke="black" d="M317.25,-1069.34C317.25,-1069.34 317.25,-911.51 317.25,-911.51"></path>
+<polygon fill="black" stroke="black" points="320.75,-911.51 317.25,-901.51 313.75,-911.51 320.75,-911.51"></polygon>
+</g>
+<!-- Chunks&#45;&gt;DBEmbedder -->
+<g id="edge4" class="edge">
+<title>Chunks-&gt;DBEmbedder</title>
+<path fill="none" stroke="black" d="M361.25,-1069.28C361.25,-1069.28 361.25,-1031.51 361.25,-1031.51"></path>
+<polygon fill="black" stroke="black" points="364.75,-1031.51 361.25,-1021.51 357.75,-1031.51 364.75,-1031.51"></polygon>
+</g>
+<!-- DocumentEmbeddings&#45;&gt;ArrowStorage -->
+<g id="edge7" class="edge">
+<title>DocumentEmbeddings-&gt;ArrowStorage</title>
+<path fill="none" stroke="black" d="M352.5,-938.43C352.5,-938.43 352.5,-911.53 352.5,-911.53"></path>
+<polygon fill="black" stroke="black" points="356,-911.53 352.5,-901.53 349,-911.53 356,-911.53"></polygon>
+</g>
+<!-- DocumentEmbeddings&#45;&gt;VectorDB -->
+<g id="edge6" class="edge">
+<title>DocumentEmbeddings-&gt;VectorDB</title>
+<path fill="none" stroke="black" d="M451.75,-938.43C451.75,-938.43 451.75,-911.53 451.75,-911.53"></path>
+<polygon fill="black" stroke="black" points="455.25,-911.53 451.75,-901.53 448.25,-911.53 455.25,-911.53"></polygon>
+</g>
+<!-- QueryEmbeddings&#45;&gt;VectorSearch -->
+<g id="edge13" class="edge">
+<title>QueryEmbeddings-&gt;VectorSearch</title>
+<path fill="none" stroke="black" d="M590,-878.43C590,-878.43 590,-851.53 590,-851.53"></path>
+<polygon fill="black" stroke="black" points="593.5,-851.53 590,-841.53 586.5,-851.53 593.5,-851.53"></polygon>
+</g>
+<!-- DBTopKIndices&#45;&gt;Retriever -->
+<g id="edge15" class="edge">
+<title>DBTopKIndices-&gt;Retriever</title>
+<path fill="none" stroke="black" d="M582,-758.43C582,-758.43 582,-731.53 582,-731.53"></path>
+<polygon fill="black" stroke="black" points="585.5,-731.53 582,-721.53 578.5,-731.53 585.5,-731.53"></polygon>
+</g>
+<!-- DBTopKText&#45;&gt;CEEmbedder -->
+<g id="edge18" class="edge">
+<title>DBTopKText-&gt;CEEmbedder</title>
+<path fill="none" stroke="black" d="M535.26,-650C434.74,-650 207,-650 207,-650 207,-650 207,-600.72 207,-600.72"></path>
+<polygon fill="black" stroke="black" points="210.5,-600.72 207,-590.72 203.5,-600.72 210.5,-600.72"></polygon>
+</g>
+<!-- DBTopKText&#45;&gt;CEQueryTopK -->
+<g id="edge24" class="edge">
+<title>DBTopKText-&gt;CEQueryTopK</title>
+<path fill="none" stroke="black" d="M582,-638.19C582,-581.38 582,-339 582,-339 582,-339 262.85,-339 262.85,-339"></path>
+<polygon fill="black" stroke="black" points="262.85,-335.5 252.85,-339 262.85,-342.5 262.85,-335.5"></polygon>
+</g>
+<!-- CEEmbeddings&#45;&gt;CERanker -->
+<g id="edge20" class="edge">
+<title>CEEmbeddings-&gt;CERanker</title>
+<path fill="none" stroke="black" d="M198,-507.43C198,-507.43 198,-480.53 198,-480.53"></path>
+<polygon fill="black" stroke="black" points="201.5,-480.53 198,-470.53 194.5,-480.53 201.5,-480.53"></polygon>
+</g>
+<!-- CEQueryScores&#45;&gt;CEQueryTopK -->
+<g id="edge22" class="edge">
+<title>CEQueryScores-&gt;CEQueryTopK</title>
+<path fill="none" stroke="black" d="M202,-387.43C202,-387.43 202,-360.53 202,-360.53"></path>
+<polygon fill="black" stroke="black" points="205.5,-360.53 202,-350.53 198.5,-360.53 205.5,-360.53"></polygon>
+</g>
+<!-- Context&#45;&gt;ChatFormatter -->
+<g id="edge30" class="edge">
+<title>Context-&gt;ChatFormatter</title>
+<path fill="none" stroke="black" d="M242.56,-279C343.94,-279 654.75,-279 654.75,-279 654.75,-279 654.75,-229.72 654.75,-229.72"></path>
+<polygon fill="black" stroke="black" points="658.25,-229.72 654.75,-219.72 651.25,-229.72 658.25,-229.72"></polygon>
+</g>
+<!-- ChatRequest&#45;&gt;Chat -->
+<g id="edge28" class="edge">
+<title>ChatRequest-&gt;Chat</title>
+<path fill="none" stroke="black" d="M697,-136.43C697,-136.43 697,-109.53 697,-109.53"></path>
+<polygon fill="black" stroke="black" points="700.5,-109.53 697,-99.53 693.5,-109.53 700.5,-109.53"></polygon>
+</g>
+<!-- ChunkSize -->
+<g id="node29" class="node">
+<title>ChunkSize</title>
+<polygon fill="lightblue" stroke="black" points="169,-1263.5 169,-1286.5 247,-1286.5 247,-1263.5 169,-1263.5"></polygon>
+<text text-anchor="middle" x="208" y="-1271.3" font-family="FreeSans" font-size="14.00">ChunkSize</text>
+</g>
+<!-- ChunkSize&#45;&gt;Chunker -->
+<g id="edge32" class="edge">
+<title>ChunkSize-&gt;Chunker</title>
+<path fill="none" stroke="black" d="M208.75,-1263.21C208.75,-1252.71 208.75,-1239 208.75,-1239 208.75,-1239 313.33,-1239 313.33,-1239 313.33,-1239 313.33,-1165.65 313.33,-1165.65"></path>
+<polygon fill="black" stroke="black" points="316.83,-1165.65 313.33,-1155.65 309.83,-1165.65 316.83,-1165.65"></polygon>
+</g>
+<!-- Overlap -->
+<g id="node30" class="node">
+<title>Overlap</title>
+<polygon fill="lightblue" stroke="black" points="265,-1263.5 265,-1286.5 329,-1286.5 329,-1263.5 265,-1263.5"></polygon>
+<text text-anchor="middle" x="297" y="-1271.3" font-family="FreeSans" font-size="14.00">Overlap</text>
+</g>
+<!-- Overlap&#45;&gt;Chunker -->
+<g id="edge33" class="edge">
+<title>Overlap-&gt;Chunker</title>
+<path fill="none" stroke="black" d="M321.17,-1263.37C321.17,-1263.37 321.17,-1165.79 321.17,-1165.79"></path>
+<polygon fill="black" stroke="black" points="324.67,-1165.79 321.17,-1155.79 317.67,-1165.79 324.67,-1165.79"></polygon>
+</g>
+<!-- documentsPath -->
+<g id="node31" class="node">
+<title>documentsPath</title>
+<polygon fill="lightblue" stroke="black" points="347,-1263.5 347,-1286.5 457,-1286.5 457,-1263.5 347,-1263.5"></polygon>
+<text text-anchor="middle" x="402" y="-1271.3" font-family="FreeSans" font-size="14.00">documentsPath</text>
+</g>
+<!-- documentsPath&#45;&gt;Documents -->
+<g id="edge34" class="edge">
+<title>documentsPath-&gt;Documents</title>
+<path fill="none" stroke="black" d="M407,-1263.28C407,-1263.28 407,-1225.51 407,-1225.51"></path>
+<polygon fill="black" stroke="black" points="410.5,-1225.51 407,-1215.51 403.5,-1225.51 410.5,-1225.51"></polygon>
+</g>
+<!-- dbEmbeddingPath -->
+<g id="node32" class="node">
+<title>dbEmbeddingPath</title>
+<polygon fill="lightblue" stroke="black" points="621,-1263.5 621,-1286.5 747,-1286.5 747,-1263.5 621,-1263.5"></polygon>
+<text text-anchor="middle" x="684" y="-1271.3" font-family="FreeSans" font-size="14.00">dbEmbeddingPath</text>
+</g>
+<!-- dbEmbeddingPath&#45;&gt;DBEmbeddingModel -->
+<g id="edge35" class="edge">
+<title>dbEmbeddingPath-&gt;DBEmbeddingModel</title>
+<path fill="none" stroke="black" d="M682.5,-1263.45C682.5,-1263.45 682.5,-1102.74 682.5,-1102.74"></path>
+<polygon fill="black" stroke="black" points="686,-1102.74 682.5,-1092.74 679,-1102.74 686,-1102.74"></polygon>
+</g>
+<!-- crossEncoderPath -->
+<g id="node33" class="node">
+<title>crossEncoderPath</title>
+<polygon fill="lightblue" stroke="black" points="25.5,-1263.5 25.5,-1286.5 150.5,-1286.5 150.5,-1263.5 25.5,-1263.5"></polygon>
+<text text-anchor="middle" x="88" y="-1271.3" font-family="FreeSans" font-size="14.00">crossEncoderPath</text>
+</g>
+<!-- crossEncoderPath&#45;&gt;CEEmbeddingModel -->
+<g id="edge37" class="edge">
+<title>crossEncoderPath-&gt;CEEmbeddingModel</title>
+<path fill="none" stroke="black" d="M88,-1263.28C88,-1263.28 88,-1225.51 88,-1225.51"></path>
+<polygon fill="black" stroke="black" points="91.5,-1225.51 88,-1215.51 84.5,-1225.51 91.5,-1225.51"></polygon>
+</g>
+<!-- crossEncoderPath&#45;&gt;CrossEncoder -->
+<g id="edge36" class="edge">
+<title>crossEncoderPath-&gt;CrossEncoder</title>
+<path fill="none" stroke="black" d="M150.55,-1275C158.17,-1275 163.33,-1275 163.33,-1275 163.33,-1275 163.33,-1200 163.33,-1200 163.33,-1200 164.03,-1200 164.03,-1200"></path>
+<polygon fill="black" stroke="black" points="160.28,-1203.5 170.28,-1200 160.28,-1196.5 160.28,-1203.5"></polygon>
+</g>
+<!-- chatModelPath -->
+<g id="node34" class="node">
+<title>chatModelPath</title>
+<polygon fill="lightblue" stroke="black" points="765,-1263.5 765,-1286.5 871,-1286.5 871,-1263.5 765,-1263.5"></polygon>
+<text text-anchor="middle" x="818" y="-1271.3" font-family="FreeSans" font-size="14.00">chatModelPath</text>
+</g>
+<!-- chatModelPath&#45;&gt;ChatModel -->
+<g id="edge38" class="edge">
+<title>chatModelPath-&gt;ChatModel</title>
+<path fill="none" stroke="black" d="M803.5,-1263.45C803.5,-1263.45 803.5,-1102.74 803.5,-1102.74"></path>
+<polygon fill="black" stroke="black" points="807,-1102.74 803.5,-1092.74 800,-1102.74 807,-1102.74"></polygon>
+</g>
+<!-- ArrowStoragePath -->
+<g id="node35" class="node">
+<title>ArrowStoragePath</title>
+<polygon fill="lightblue" stroke="black" points="475,-1263.5 475,-1286.5 603,-1286.5 603,-1263.5 475,-1263.5"></polygon>
+<text text-anchor="middle" x="539" y="-1271.3" font-family="FreeSans" font-size="14.00">ArrowStoragePath</text>
+</g>
+<!-- ArrowStoragePath&#45;&gt;ArrowStorage -->
+<g id="edge39" class="edge">
+<title>ArrowStoragePath-&gt;ArrowStorage</title>
+<path fill="none" stroke="black" d="M488.75,-1263.19C488.75,-1201.59 488.75,-920 488.75,-920 488.75,-920 379.5,-920 379.5,-920 379.5,-920 379.5,-911.51 379.5,-911.51"></path>
+<polygon fill="black" stroke="black" points="383,-911.51 379.5,-901.51 376,-911.51 383,-911.51"></polygon>
+</g>
+</g>
+</svg>
